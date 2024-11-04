@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <div class="wholepage">
+  
+  <div>
+    <button onclick="showit('first1')">FUN</button>
+    <button onclick="showit('first2')">MORE FUN</button>
+    <button onclick="showit('first3')">MOST FUN</button>
+    <button onclick="showit('first4')">SAD DAY</button>
+  </div>
+  
+  <div id="first1" style="display:block">
+    <div class="box one">
+      <div class="parent">
+  <div id ="div1" class="div4" onclick="select(this)"></div>
+  <div id ="div2" class="div4" onclick="select(this)"></div>
+  <div id ="div3" class="div4" onclick="select(this)"></div>
+  <div id ="div4" class="div4" onclick="select(this)"></div>
+  <div id ="div5" class="div4" onclick="select(this)"></div>
+  <div id ="div6" class="div4" onclick="select(this)"></div>
+  <div id ="div7" class="div4" onclick="select(this)"></div>
+  <div id ="div8" class="div4" onclick="select(this)"></div>
+  <div id ="div9" class="div4" onclick="select(this)"></div>
+ 
+</div>
+      
+      
+    </div>
+  </div>
+  <div id="first2" style="display:none">
+    <div class="box two">
+      <div class="radio">
+        <div class="radios" onchange="clicked1()">
+        <input type="radio" name="test" value="1">WOMP<br>
+        <input type="radio" name="test" value="1">WOMPWOMP<br>
+        <input type="radio" name="test" value="1">WOMP^3<br>
+        <input type="radio" name="test" value="1">WOMP^4<br>
+        <input type="radio" name="test" value="1">WOMP^5<br>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+  <div id="first3" style="display:none">
+    <div class="box three">
+      <div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Menu</div>
+  <div class="item3">Main</div>  
+  <div class="item4">Right</div>
+  <div class="item5">Footer</div>
+</div>
+      
+      
+    </div>
+  </div>
+  <div id="first4" style="display:none">
+    <div class="box four">
+      <div class="wholepage">
     <div class="top">
     
     </div>
@@ -25,8 +83,9 @@
     
     </div>
   </div>
-
+    
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
-
 </html>

@@ -7,5 +7,4 @@ function showit(var1) {
   document.getElementById('first5').style.display = 'none';
   document.getElementById(var1).style.display = 'block';
 }
-var count = 1
 

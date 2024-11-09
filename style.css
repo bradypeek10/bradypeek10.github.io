@@ -5,7 +5,26 @@ html {
 body {
   height: 100%;
   width: 100%;
+  margin: 0;
 }
+img {
+  width: 900px;
+  }
 .header {
-  
+  background-color: blue;
+  display: flex;
+  height: 40px;
+  padding: 2px;
+  text-align: center; 
+}
+.title {
+  margin: auto;
+  font-size: 30px;
+}
+.buttons {
+  margin: auto;
+}
+.rocketleague {
+  text-align: center;
+  margin: auto;
 }

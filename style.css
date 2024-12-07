@@ -8,24 +8,155 @@ body {
   margin: 0;
 }
 img {
-  height: 100%;
   width: 100%;
+  height: 100%;
+  
   }
 .header {
-  background-color: blue;
+  background-image: linear-gradient(to bottom, blue, white, orange);
   display: flex;
+  flex-wrap: wrap;
   height: 40px;
-  padding: 2px;
   text-align: center; 
 }
 .title {
-  margin: auto;
+  flex: 5;
+  margin-left: 5%;
+  margin-top: .3%;
   font-size: 30px;
+  z-index: 1;
+}
+.title:hover {
+  cursor: pointer;
+  color: red;
 }
 .buttons {
-  margin: auto;
+  flex: 5;
+  margin-top: .5%;
 }
 .rocketleague {
-  text-align: center;
-  margin: auto;
-}
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 5%;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  font-size: 30px;
+  }
+  .rocketleague:hover {
+    font-size: 38px;
+    transition: 1.0s;
+  }
+  .pic {
+    opacity: .65;
+    z-index: -1;
+  }
+  .rldescription {
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 20px;
+  }
+  .rldescription:hover {
+    transition: 1.0s;
+    font-size: 22px;
+  }
+  .coaching {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 20%;
+  }
+  .restcoaching {
+    position: absolute;
+    z-index: 1; 
+    margin-top: 10%;
+    width: 100%;
+    height: 100px; 
+  }
+  .top {
+    display: flex;
+  }
+  .day1 {
+    flex: 3;
+    margin-left: 15%;
+    background-color: blue;
+     
+    
+  }
+  .day2 {
+    flex: 3;
+    background-color: orange;
+  }
+ .bottom {
+   display: flex;
+   margin-top: 10%;
+ }
+ .day3 {
+   flex: 3;
+    margin-left: 15%;
+    background-color: orange;
+    width: 10%;
+ }
+ .day4 {
+   flex: 3;
+   background-color: blue;
+ }
+ .vod {
+   position: absolute;
+   z-index: 1;
+   left: 50%;
+   transform: translate(-50%, 0);
+   top: 20%;
+   font-size: 30px;
+   background-color: white;
+ }
+ .vod:hover {
+   font-size: 36px;
+   transition: 1.0s;
+ }
+ .restvod {
+   position: absolute;
+   top: 40%;
+   display: flex;
+   height: 100%;
+   width: 100%;
+   z-index: 1;
+ }
+ .expect{
+   flex: 3;
+   font-size: 24px;
+   text-align: center;
+ }
+ p {
+   font-size: 18px;
+ }
+ .clips {
+   flex: 3;
+   border: solid 1px;
+   background-color: white;
+   text-align: center;
+ }
+ 
+ .example {
+   flex: 3;
+ }
+ .ex1 {
+   border: solid 2px;
+   height: 25%;
+ }
+ .ex2 {
+   border: solid 2px;
+   height: 25%;
+ }
+ .ex3 {
+   border: solid 2px;
+   height: 25%;
+ }
+ .ex4 {
+   border: solid 2px;
+   height: 25%;
+ }

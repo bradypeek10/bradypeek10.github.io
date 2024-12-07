@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,7 +7,7 @@
 </head>
 <body>
 <div class="header"> 
-  <div class="title">PEEK PERFORMANCE</div>
+  <div class="title" onclick="showit('first')">PEEK PERFORMANCE</div>
   <div class="buttons">
     <button onclick="showit('first1')">Coaching</button>
     <button onclick="showit('first2')">VOD Review</button>
@@ -15,48 +16,91 @@
     <button onclick="showit('first5')">Account</button>
   </div>
 </div>
+<div id="first" style="display:block">
+
+
 <div class="resto">
   <div class="inside">
+    <div class="rldescription">
+      <p>
+         The game that brings people together,<br>
+         challenges skills, <br>
+         teaches lessons, <br>
+         and became the greatest of all time.
+      </p>
+    </div>
     <div class="rocketleague">ROCKET LEAGUE</div>
     <img class="pic" src="https://themeistermentality.wordpress.com/wp-content/uploads/2021/05/dfh_stadium_arena_preview.png">
     
   </div>
-    
-    
-  
-  
-  
-  
-  
-  
-  
+  </div>  
 </div> 
-
-  <div id="first1" style="display:block">
-    <div class="box one">
-      
-    </div>
+<div id="first1" style="display:none">
+   <div class="coaching">
+     Coaching!        
+     </div>     
+   <div class="restcoaching">
+     <div class="top">
+       <div class="day1">1 Day per Week for 1 Hour</div>
+       <div class="day2">2 Days per Week for 1 Hour</div>
+     </div>
+     <div class="bottom">
+       <div class="day3">1 Day per Week for 2 Hours with Competitive Games</div>
+       <div class="day4">2 Days per Week for 2 Hours with Competitive Games</div>
+     </div>
+   </div>     
+        
+        
+        
+  <img class="pic" src="https://themeistermentality.wordpress.com/wp-content/uploads/2021/05/dfh_stadium_arena_preview.png">      
   </div>
   <div id="first2" style="display:none">
-    <div class="box two">
-      
-      
+    <div class="vod">
+      VOD REVIEW
     </div>
+    <div class="restvod">
+      <div class="expect">
+        WHAT TO EXPECT
+        <p>
+          Working with our coordinated team, we help to coach by looking through your replays, and showing the things that you need to work on
+        </p>
+      </div>
+      <div class="clips">
+        Send us YOUR clips!
+        <p>
+          coachrl@womp.com
+        </p>
+        <input type="textbox" name="Comment Here">Comment Here
+      </div>
+      <div class="example">
+        <div class="ex1">
+        
+        </div>
+        <div class="ex2">
+        
+        </div>
+        <div class="ex3">
+        
+        </div>
+        <div class="ex4">
+        
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <img class="pic" src="https://themeistermentality.wordpress.com/wp-content/uploads/2021/05/dfh_stadium_arena_preview.png">
   </div>
   <div id="first3" style="display:none">
-    <div class="box three">
     
-    </div>
   </div>
   <div id="first4" style="display:none">
-    <div class="box four">
-
-    </div>
+    
   </div>
   <div id="first5" style="display:none">
-    <div class="box five">
-
-    </div>
+    
   </div>
   <script src="script.js"></script>
 </body>

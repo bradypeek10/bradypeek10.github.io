@@ -1,5 +1,6 @@
 function showit(var1) {
 	//hide div that is shown
+  document.getElementById('first').style.display = 'none';
   document.getElementById('first1').style.display = 'none';
   document.getElementById('first2').style.display = 'none';
   document.getElementById('first3').style.display = 'none';

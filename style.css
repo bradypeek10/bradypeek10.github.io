@@ -124,7 +124,7 @@ img {
   }
   .day1 {
     flex: 3;
-    margin-left: 15%;
+    margin-left: 5%;
     background-color:white;
     border: blue solid 3px;
     padding: 1%;
@@ -141,7 +141,7 @@ img {
  }
  .day3 {
    flex: 3;
-    margin-left: 15%;
+    margin-left: 5%;
     border: orange 3px solid;
     background-color: white;
     padding: 1%;

@@ -9,8 +9,8 @@ body {
 }
 img {
   width: 100%;
-  height: 100%;
-  
+  height: 102%;
+  margin: 0;
   }
 .header {
   background-image: linear-gradient(to bottom, blue, white, orange);
@@ -18,13 +18,13 @@ img {
   flex-wrap: wrap;
   height: 40px;
   text-align: center; 
+  padding: 1%;
 }
 .title {
   flex: 5;
-  margin-left: 5%;
-  margin-top: .3%;
   font-size: 30px;
   z-index: 1;
+  padding: .5%;
 }
 .title:hover {
   cursor: pointer;
@@ -33,6 +33,39 @@ img {
 .buttons {
   flex: 5;
   margin-top: .5%;
+  transition: 1.0s;
+  padding: 1%;
+}
+.footer {
+  background-image: linear-gradient(to bottom, gray, white);
+  height: 106px;
+  z-index: 1;
+  margin-bottom: 0;
+  display: flex;
+}
+.ft1 {
+  flex: 2;
+  border: 3px solid;
+  font-size: 12px;
+  text-align: center;
+}
+.ft2 {
+  flex: 2;
+  border: 3px solid;
+  font-size: 12px;
+  text-align: center;
+}
+.ft3 {
+  flex: 2;
+  border: 3px solid;
+  font-size: 12px;
+  text-align: center;
+}
+.ft4 {
+  flex: 2;
+  border: 3px solid;
+  font-size: 12px;
+  text-align: center;
 }
 .rocketleague {
   left: 50%;
@@ -42,6 +75,7 @@ img {
   background-color: white;
   z-index: 1;
   font-size: 30px;
+  padding: 1%;
   }
   .rocketleague:hover {
     font-size: 38px;
@@ -50,6 +84,7 @@ img {
   .pic {
     opacity: .65;
     z-index: -1;
+    margin: 0;
   }
   .rldescription {
     z-index: 1;
@@ -58,6 +93,7 @@ img {
     left: 50%;
     transform: translate(-50%, 0);
     font-size: 20px;
+    padding: 1%;
   }
   .rldescription:hover {
     transition: 1.0s;
@@ -68,14 +104,17 @@ img {
     z-index: 1;
     left: 50%;
     transform: translate(-50%, 0);
-    top: 20%;
+    top: 10%;
+    font-size: 30px;
+    padding: 1%;
   }
   .restcoaching {
     position: absolute;
     z-index: 1; 
     margin-top: 10%;
-    width: 100%;
     height: 100px; 
+    padding: 1%;
+    right: 11%;
   }
   .top {
     display: flex;
@@ -83,13 +122,15 @@ img {
   .day1 {
     flex: 3;
     margin-left: 15%;
-    background-color: blue;
-     
-    
+    background-color:white;
+    border: blue solid 3px;
+    padding: 1%;
   }
   .day2 {
     flex: 3;
-    background-color: orange;
+    border: orange 3px solid;
+    background-color: white;
+    padding: 1%;
   }
  .bottom {
    display: flex;
@@ -98,21 +139,26 @@ img {
  .day3 {
    flex: 3;
     margin-left: 15%;
-    background-color: orange;
-    width: 10%;
+    border: orange 3px solid;
+    background-color: white;
+    padding: 1%;
  }
  .day4 {
    flex: 3;
-   background-color: blue;
+   background-color:white;
+    border: blue solid 3px;
+    padding: 1%;
  }
  .vod {
    position: absolute;
    z-index: 1;
    left: 50%;
    transform: translate(-50%, 0);
-   top: 20%;
+   top: 10%;
    font-size: 30px;
    background-color: white;
+   border-radius: 20%;
+   padding: 1%;
  }
  .vod:hover {
    font-size: 36px;
@@ -120,16 +166,17 @@ img {
  }
  .restvod {
    position: absolute;
-   top: 40%;
+   top: 30%;
    display: flex;
-   height: 100%;
-   width: 100%;
+   height: 48.5%;
    z-index: 1;
+   padding: 1%;
  }
  .expect{
    flex: 3;
    font-size: 24px;
    text-align: center;
+   padding: 1%;
  }
  p {
    font-size: 18px;
@@ -139,24 +186,131 @@ img {
    border: solid 1px;
    background-color: white;
    text-align: center;
+   margin-top: 8%;
+   margin-bottom: 8%;
+   padding: 1%;
  }
  
  .example {
    flex: 3;
+   height: 100%;
+   padding: 1%;
+ }
+ .exflex {
+   display: flex;
+   height: 100%;
  }
  .ex1 {
    border: solid 2px;
-   height: 25%;
+   flex:2
  }
  .ex2 {
    border: solid 2px;
-   height: 25%;
+   flex: 2;
  }
  .ex3 {
    border: solid 2px;
-   height: 25%;
+   flex: 2;
  }
  .ex4 {
    border: solid 2px;
-   height: 25%;
+   flex: 2;
  }
+ .coach1 {
+   border: solid 2px;
+   position: absolute;
+   z-index: 1;
+   height: 200px;
+   width: 180px;
+   left: 25%;
+   top: 15%;
+ }
+ .coach2 {
+   border: solid 2px;
+   position: absolute;
+   z-index: 1;
+   height: 200px;
+   width: 180px;
+   right: 25%;
+   top: 15%;
+ }
+ .cn1 {
+   position: absolute;
+   z-index: 1;
+   width: 180px;
+   left: 25%;
+   bottom: 45%;
+   font-size: 20px;
+   text-align: center;
+ }
+ .cn2 {
+   position: absolute;
+   z-index: 1;
+   width: 180px;
+   right: 25%;
+   bottom: 45%;
+   font-size: 20px;
+   text-align: center;
+ }
+ .active {
+   position: absolute;
+   z-index: 1;
+   right:1%;
+   top: 10%
+ }
+ .settings {
+   position: absolute;
+   z-index: 1;
+   left: 50%;
+   top: 25%;
+   transform: translate(-50%, 0);
+   background-color: white;
+   border-radius: 10% 10%;
+   height: 200px;
+   width: 300px;
+   text-align: center;
+ }
+ .profile {
+   padding: 1%;
+   border: solid 1px;
+   width: 200px;
+   margin-left: 15%;
+   margin-top: 10%;
+ }
+ .profile:hover {
+   background-color: lightgray;
+   color: red;
+ }
+ .name {
+   padding: 1%;
+   border: solid 1px;
+   width: 200px;
+   margin-left: 15%;
+   margin-top: 2%;
+ }
+ .name:hover {
+   background-color: lightgray;
+   color: red;
+ }
+ .payment {
+   padding: 1%;
+   border: solid 1px;
+   width: 200px;
+   margin-left: 15%;
+   margin-top: 2%;
+ }
+ .payment:hover {
+   background-color: lightgray;
+   color: red;
+ }
+ .email {
+   padding: 1%;
+   border: solid 1px;
+   width: 200px;
+   margin-left: 15%;
+   margin-top: 2%;
+ }
+.email:hover {
+  background-color: lightgray;
+   color: red;
+}

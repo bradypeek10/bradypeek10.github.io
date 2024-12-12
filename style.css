@@ -32,7 +32,7 @@ img {
 }
 .buttons {
   flex: 5;
-  margin-top: .5%;
+  margin-top: .1%;
   transition: 1.0s;
   padding: 1%;
 }

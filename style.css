@@ -36,6 +36,9 @@ img {
   transition: 1.0s;
   padding: 1%;
 }
+.resto {
+  margin: 0;
+}
 .footer {
   background-image: linear-gradient(to bottom, gray, white);
   height: 106px;

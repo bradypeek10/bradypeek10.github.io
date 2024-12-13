@@ -43,7 +43,7 @@ img {
   background-image: linear-gradient(to bottom, gray, white);
   height: 106px;
   z-index: 1;
-  margin-bottom: 0;
+  margin: 0;
   display: flex;
 }
 .ft1 {
